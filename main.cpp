@@ -11,4 +11,5 @@ int main()
 	cout << n << " phan tich thanh thua so nguyen to: ";
 	tim_thua_so_nguyen_to(n);
 	cout << endl;
+	
 }
