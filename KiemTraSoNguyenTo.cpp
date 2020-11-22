@@ -5,7 +5,7 @@ bool KTSNT(int x)
 		return false;
 	}
 	int count=0;
-	if (int i = 2; i <= sqrt(x); i++){
+	 (int i = 2; i <= sqrt(x); i++){
 		if (x%i == 0){
 			count++;
 		}
