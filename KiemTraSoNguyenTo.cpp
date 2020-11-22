@@ -11,7 +11,7 @@ bool KTSNT(int x)
 		}
 
 	}
-	if (count = 0)
+	if (count == 0)
 		return true;
 	return false;
 }
