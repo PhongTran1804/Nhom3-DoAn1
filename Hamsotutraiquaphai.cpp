@@ -1,13 +1,14 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-long phaiquatrai(int n)
+void phaiquatrai(int n)
 {
-	int d;
-	d = n;
-	while (n > 1) {
-		d = n % 10;
-		cout << d;
+	int a;
+	cout << n << " in tu phai qua trai la: ";
+	while (n !=0 )
+	{
+		a = n % 10;
+		cout << a << "  ";
 		n /= 10;
 	}
 }
