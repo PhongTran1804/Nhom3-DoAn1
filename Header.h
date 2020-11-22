@@ -7,3 +7,4 @@ void SNT_nhohonhoacbang_n(int n);
 void phaiquatrai(int n);
 void tim_thua_so_nguyen_to(int n);
 
+
