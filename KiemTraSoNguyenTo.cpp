@@ -1,10 +1,8 @@
-
-int main() {
-	int x;
-	cout << " nhap x: ";
-	cin >> x;
+#include <math.h>
+bool KTSNT(int x) 
+{
 	if (x < 2){
-		cout << x << " ko la so nguyen to";
+		return false;
 	}
 	int tong = 0;
 	if (int i = 2; i <= sqrt(x); i++){
@@ -13,10 +11,7 @@ int main() {
 		}
 
 	}
-	if (count = 0){
-		cout << x << " la so nguyen to";
-	}
-	else{
-		cout << x << " ko la so nguyen to";
-	}
+	if (count = 0)
+		return true;
+	return false;
 }
