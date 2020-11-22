@@ -7,7 +7,7 @@ long phaiquatrai(int n)
 	d = n;
 	while (n > 1) {
 		d = n % 10;
-		std::cout << d;
+		cout << d;
 		n /= 10;
 	}
 }
