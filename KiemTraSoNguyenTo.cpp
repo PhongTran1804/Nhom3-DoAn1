@@ -4,9 +4,9 @@ bool KTSNT(int x)
 	if (x < 2){
 		return false;
 	}
-	int tong = 0;
+	int count=0;
 	if (int i = 2; i <= sqrt(x); i++){
-		if (n%i == 0){
+		if (x%i == 0){
 			count++;
 		}
 
